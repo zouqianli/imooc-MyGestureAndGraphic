@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		995239851E88235F003F3148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239841E88235F003F3148 /* main.m */; };
 		995239881E88235F003F3148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239871E88235F003F3148 /* AppDelegate.m */; };
-		9952398B1E88235F003F3148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9952398A1E88235F003F3148 /* ViewController.m */; };
-		9952398E1E88235F003F3148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9952398C1E88235F003F3148 /* Main.storyboard */; };
 		995239901E88235F003F3148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9952398F1E88235F003F3148 /* Assets.xcassets */; };
 		995239931E88235F003F3148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995239911E88235F003F3148 /* LaunchScreen.storyboard */; };
 		9952399E1E88235F003F3148 /* MyGestureAndGraphicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9952399D1E88235F003F3148 /* MyGestureAndGraphicTests.m */; };
 		995239A91E88235F003F3148 /* MyGestureAndGraphicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239A81E88235F003F3148 /* MyGestureAndGraphicUITests.m */; };
+		995239C41E88239D003F3148 /* myButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239B71E88239D003F3148 /* myButton.m */; };
+		995239C51E88239D003F3148 /* MyButtonGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239B91E88239D003F3148 /* MyButtonGestureViewController.m */; };
+		995239C61E88239D003F3148 /* MyGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239BB1E88239D003F3148 /* MyGestureViewController.m */; };
+		995239C71E88239E003F3148 /* MyGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995239BC1E88239D003F3148 /* MyGestureViewController.xib */; };
+		995239C81E88239E003F3148 /* MyGraphicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239BE1E88239D003F3148 /* MyGraphicViewController.m */; };
+		995239C91E88239E003F3148 /* MyGraphicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995239BF1E88239D003F3148 /* MyGraphicViewController.xib */; };
+		995239CA1E88239E003F3148 /* Xxxxx.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239C11E88239D003F3148 /* Xxxxx.m */; };
+		995239CB1E88239E003F3148 /* Yyyyy.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239C31E88239D003F3148 /* Yyyyy.m */; };
+		995239CE1E8823BB003F3148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995239CD1E8823BB003F3148 /* ViewController.m */; };
+		995239D01E882504003F3148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995239CF1E882504003F3148 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +47,6 @@
 		995239841E88235F003F3148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		995239861E88235F003F3148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		995239871E88235F003F3148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		995239891E88235F003F3148 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9952398A1E88235F003F3148 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9952398D1E88235F003F3148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9952398F1E88235F003F3148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995239921E88235F003F3148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		995239941E88235F003F3148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,23 @@
 		995239A41E88235F003F3148 /* MyGestureAndGraphicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGestureAndGraphicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		995239A81E88235F003F3148 /* MyGestureAndGraphicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGestureAndGraphicUITests.m; sourceTree = "<group>"; };
 		995239AA1E88235F003F3148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995239B61E88239D003F3148 /* myButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myButton.h; sourceTree = "<group>"; };
+		995239B71E88239D003F3148 /* myButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myButton.m; sourceTree = "<group>"; };
+		995239B81E88239D003F3148 /* MyButtonGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButtonGestureViewController.h; sourceTree = "<group>"; };
+		995239B91E88239D003F3148 /* MyButtonGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButtonGestureViewController.m; sourceTree = "<group>"; };
+		995239BA1E88239D003F3148 /* MyGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGestureViewController.h; sourceTree = "<group>"; };
+		995239BB1E88239D003F3148 /* MyGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGestureViewController.m; sourceTree = "<group>"; };
+		995239BC1E88239D003F3148 /* MyGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGestureViewController.xib; sourceTree = "<group>"; };
+		995239BD1E88239D003F3148 /* MyGraphicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGraphicViewController.h; sourceTree = "<group>"; };
+		995239BE1E88239D003F3148 /* MyGraphicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGraphicViewController.m; sourceTree = "<group>"; };
+		995239BF1E88239D003F3148 /* MyGraphicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGraphicViewController.xib; sourceTree = "<group>"; };
+		995239C01E88239D003F3148 /* Xxxxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xxxxx.h; sourceTree = "<group>"; };
+		995239C11E88239D003F3148 /* Xxxxx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xxxxx.m; sourceTree = "<group>"; };
+		995239C21E88239D003F3148 /* Yyyyy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yyyyy.h; sourceTree = "<group>"; };
+		995239C31E88239D003F3148 /* Yyyyy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yyyyy.m; sourceTree = "<group>"; };
+		995239CC1E8823BB003F3148 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		995239CD1E8823BB003F3148 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		995239CF1E882504003F3148 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +125,23 @@
 			children = (
 				995239861E88235F003F3148 /* AppDelegate.h */,
 				995239871E88235F003F3148 /* AppDelegate.m */,
-				995239891E88235F003F3148 /* ViewController.h */,
-				9952398A1E88235F003F3148 /* ViewController.m */,
-				9952398C1E88235F003F3148 /* Main.storyboard */,
+				995239CC1E8823BB003F3148 /* ViewController.h */,
+				995239CD1E8823BB003F3148 /* ViewController.m */,
+				995239CF1E882504003F3148 /* Main.storyboard */,
+				995239B61E88239D003F3148 /* myButton.h */,
+				995239B71E88239D003F3148 /* myButton.m */,
+				995239B81E88239D003F3148 /* MyButtonGestureViewController.h */,
+				995239B91E88239D003F3148 /* MyButtonGestureViewController.m */,
+				995239BA1E88239D003F3148 /* MyGestureViewController.h */,
+				995239BB1E88239D003F3148 /* MyGestureViewController.m */,
+				995239BC1E88239D003F3148 /* MyGestureViewController.xib */,
+				995239BD1E88239D003F3148 /* MyGraphicViewController.h */,
+				995239BE1E88239D003F3148 /* MyGraphicViewController.m */,
+				995239BF1E88239D003F3148 /* MyGraphicViewController.xib */,
+				995239C01E88239D003F3148 /* Xxxxx.h */,
+				995239C11E88239D003F3148 /* Xxxxx.m */,
+				995239C21E88239D003F3148 /* Yyyyy.h */,
+				995239C31E88239D003F3148 /* Yyyyy.m */,
 				9952398F1E88235F003F3148 /* Assets.xcassets */,
 				995239911E88235F003F3148 /* LaunchScreen.storyboard */,
 				995239941E88235F003F3148 /* Info.plist */,
@@ -207,6 +243,7 @@
 				TargetAttributes = {
 					9952397F1E88235F003F3148 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 74T2Z8A872;
 						ProvisioningStyle = Automatic;
 					};
 					995239981E88235F003F3148 = {
@@ -246,9 +283,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995239C71E88239E003F3148 /* MyGestureViewController.xib in Resources */,
+				995239D01E882504003F3148 /* Main.storyboard in Resources */,
 				995239931E88235F003F3148 /* LaunchScreen.storyboard in Resources */,
 				995239901E88235F003F3148 /* Assets.xcassets in Resources */,
-				9952398E1E88235F003F3148 /* Main.storyboard in Resources */,
+				995239C91E88239E003F3148 /* MyGraphicViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9952398B1E88235F003F3148 /* ViewController.m in Sources */,
+				995239CE1E8823BB003F3148 /* ViewController.m in Sources */,
+				995239C61E88239D003F3148 /* MyGestureViewController.m in Sources */,
+				995239CA1E88239E003F3148 /* Xxxxx.m in Sources */,
 				995239881E88235F003F3148 /* AppDelegate.m in Sources */,
 				995239851E88235F003F3148 /* main.m in Sources */,
+				995239C41E88239D003F3148 /* myButton.m in Sources */,
+				995239CB1E88239E003F3148 /* Yyyyy.m in Sources */,
+				995239C81E88239E003F3148 /* MyGraphicViewController.m in Sources */,
+				995239C51E88239D003F3148 /* MyButtonGestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +356,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9952398C1E88235F003F3148 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9952398D1E88235F003F3148 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		995239911E88235F003F3148 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74T2Z8A872;
 				INFOPLIST_FILE = MyGestureAndGraphic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.MyGestureAndGraphic;
@@ -433,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74T2Z8A872;
 				INFOPLIST_FILE = MyGestureAndGraphic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.MyGestureAndGraphic;
