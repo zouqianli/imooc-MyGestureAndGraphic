@@ -9,7 +9,7 @@
 #import "MyGestureViewController.h"
 #define screenH [UIScreen mainScreen].bounds.size.height
 typedef enum GestureOptions {
-    tap = 0,
+    tap = 0, // 整形值 可以配合case使用 oc的case还是整型值
     longPress,
     swipe,
     pan,

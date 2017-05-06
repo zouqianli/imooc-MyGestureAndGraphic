@@ -43,6 +43,7 @@ NSString *str; // X轴文字
         
         [self myUpdateCoordinate:context margin:40 pointsNum:18 ];// 初始X坐标
         [self myUpdateLine2:context margin:40 pointsNum:18 ]; // 初始折线
+        return;
     }
     if (self.scale > 0.79 && self.scale <= 0.8) {
         self.scale = 0.8;
@@ -64,7 +65,7 @@ NSString *str; // X轴文字
         //        [self myUpdateCoordinate:context margin:40 pointsNum:18 ];// 更新X坐标
         [self myUpdateLine2:context margin:40 pointsNum:18 ]; // 更新折线
     }
-    [self myUpdateCoordinate:context margin:margin pointsNum:pointsNum];
+    [self myUpdateCoordinate:context margin:margin pointsNum:pointsNum]; // 更新X坐标
 }
 - (void) myUpdateCoordinate:(CGContextRef)context margin:(int) margin pointsNum:(int) pointsNum
 {
